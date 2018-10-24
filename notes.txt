@@ -1,0 +1,15 @@
+USER
+
+input - path to pdf and path to the list of words to be located
+
+output - 
+
+FLOW
+
+convert pdf to image
+make 3 new rotated copies 
+apply tesseract on all images and store seperate words in list
+
+compare list of word objects with excel-list and make a new list with only the relevant words
+
+determine which quadrant words are in and suggest pages for components
